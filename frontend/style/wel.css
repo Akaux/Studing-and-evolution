@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(320deg, #5822A5, #2D1247, #14121B);
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+#card{
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    background-color: #0E1116;
+    box-shadow: 5px 5px 5px #2d0e49;
+    display: flex;
+    align-items: center;
+}

@@ -41,3 +41,16 @@ span{
     text-align: center;
     font-family: sans-serif;
 }
+#section-user{
+    width: 400px;
+    height: 400px;
+    background-color: #191e24;
+    border-radius: 5px;
+}
+.text-template{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+}

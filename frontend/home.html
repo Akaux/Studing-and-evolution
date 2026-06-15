@@ -10,14 +10,14 @@
 <body>
     <h1>Estude no seu tempo !</h1>
     <header>
-        <button id="btn-pfl">???</button> <!---
-     botao para acessar perfil   
-    -->
-        <button id="btn-nvl">???</button> <!---
-        botao para ver nivel e quantidade de xp
-    -->
+
     </header>
     <article>
+        <div id="section-user">
+            <span id="name" class="text-template"></span>
+            <span id="nivel" class="text-template"></span>
+            <span id="xp" class="text-template">xp</span>
+        </div>
         <div>
             <span id="hours">00</span> <!----> <span>:</span>
             <span id="minutes">00</span> <span>:</span>
@@ -28,7 +28,12 @@
             <button id="btn-stp" class="btn">Pausar</button>
             <button id="btn-rst" class="btn">Resetar</button>
         </div>
+        <div>
+            
+        </div>
     </article>
-    <script src="/backend/main.js"></script>
+    <script type="module" src="/backend/user.js"></script>
+    <script type="module" src="/backend/main.js"></script>
+
 </body>
 </html>
